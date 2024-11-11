@@ -1,91 +1,190 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
+  "name": "Bókun Help Center",
   "colors": {
     "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "light": "#55D799",
+    "dark": "#0D9373"
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+  "favicon": "/favicon.svg",
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Docs/bokun Help Center",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "docs/bokun-help-center"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Docs/bokun Status",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "docs/bokun-status"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Docs/getting Started/account Dashboard",
       "pages": [
-        "api-reference/introduction"
+        "docs/getting-started/account-dashboard"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Docs/apps And The Bokun App Store/bokun App Store",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "docs/apps-and-the-bokun-app-store/bokun-app-store"
+      ]
+    },
+    {
+      "group": "Docs/bokun Websites/how To Create A Bokun Website Pro",
+      "pages": [
+        "docs/bokun-websites/how-to-create-a-bokun-website-pro"
+      ]
+    },
+    {
+      "group": "Docs/booking Agents Pro/",
+      "pages": [
+        "docs/booking-agents-pro/"
+      ]
+    },
+    {
+      "group": "Docs/bookings/booking Communication/booking Confirmation",
+      "pages": [
+        "docs/bookings/booking-communication/booking-confirmation"
+      ]
+    },
+    {
+      "group": "Docs/products/How To Add Price Schedules",
+      "pages": [
+        "docs/products/How-to-add-price-schedules"
+      ]
+    },
+    {
+      "group": "Docs/marketplace Pro/contract Terms/define Different Commission For Each Product In The Marketplace",
+      "pages": [
+        "docs/marketplace-pro/contract-terms/define-different-commission-for-each-product-in-the-marketplace"
+      ]
+    },
+    {
+      "group": "Docs/operations/close Outs/how To Close And Open Dates And Start Times For Experiences",
+      "pages": [
+        "docs/operations/close-outs/how-to-close-and-open-dates-and-start-times-for-experiences"
+      ]
+    },
+    {
+      "group": "Docs/otas Online Travel Agencies/online Travel Agencies Otas Pro",
+      "pages": [
+        "docs/otas-online-travel-agencies/online-travel-agencies-otas-pro"
+      ]
+    },
+    {
+      "group": "Docs/reports/experience Sales/",
+      "pages": [
+        "docs/reports/experience-sales/"
+      ]
+    },
+    {
+      "group": "Docs/settings/company/company Profile/how To Add An Id Number Kennitala To Your Account",
+      "pages": [
+        "docs/settings/company/company-profile/how-to-add-an-id-number-kennitala-to-your-account"
+      ]
+    },
+    {
+      "group": "Docs/widgets And Online Sales/add A Book Now Button On Your Facebook Page",
+      "pages": [
+        "docs/widgets-and-online-sales/add-a-book-now-button-on-your-facebook-page"
+      ]
+    },
+    {
+      "group": "Docs/bokun Help Center",
+      "pages": [
+        "docs/bokun-help-center"
+      ]
+    },
+    {
+      "group": "Docs/bokun Status",
+      "pages": [
+        "docs/bokun-status"
+      ]
+    },
+    {
+      "group": "Docs/getting Started/account Dashboard",
+      "pages": [
+        "docs/getting-started/account-dashboard"
+      ]
+    },
+    {
+      "group": "Docs/apps And The Bokun App Store/bokun App Store",
+      "pages": [
+        "docs/apps-and-the-bokun-app-store/bokun-app-store"
+      ]
+    },
+    {
+      "group": "Docs/bokun Websites/how To Create A Bokun Website Pro",
+      "pages": [
+        "docs/bokun-websites/how-to-create-a-bokun-website-pro"
+      ]
+    },
+    {
+      "group": "Docs/booking Agents Pro/",
+      "pages": [
+        "docs/booking-agents-pro/"
+      ]
+    },
+    {
+      "group": "Docs/bookings/booking Communication/booking Confirmation",
+      "pages": [
+        "docs/bookings/booking-communication/booking-confirmation"
+      ]
+    },
+    {
+      "group": "Docs/products/How To Add Price Schedules",
+      "pages": [
+        "docs/products/How-to-add-price-schedules"
+      ]
+    },
+    {
+      "group": "Docs/marketplace Pro/contract Terms/define Different Commission For Each Product In The Marketplace",
+      "pages": [
+        "docs/marketplace-pro/contract-terms/define-different-commission-for-each-product-in-the-marketplace"
+      ]
+    },
+    {
+      "group": "Docs/operations/close Outs/how To Close And Open Dates And Start Times For Experiences",
+      "pages": [
+        "docs/operations/close-outs/how-to-close-and-open-dates-and-start-times-for-experiences"
+      ]
+    },
+    {
+      "group": "Docs/otas Online Travel Agencies/online Travel Agencies Otas Pro",
+      "pages": [
+        "docs/otas-online-travel-agencies/online-travel-agencies-otas-pro"
+      ]
+    },
+    {
+      "group": "Docs/reports/experience Sales/",
+      "pages": [
+        "docs/reports/experience-sales/"
+      ]
+    },
+    {
+      "group": "Docs/settings/company/company Profile/how To Add An Id Number Kennitala To Your Account",
+      "pages": [
+        "docs/settings/company/company-profile/how-to-add-an-id-number-kennitala-to-your-account"
+      ]
+    },
+    {
+      "group": "Docs/widgets And Online Sales/add A Book Now Button On Your Facebook Page",
+      "pages": [
+        "docs/widgets-and-online-sales/add-a-book-now-button-on-your-facebook-page"
       ]
     }
   ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+  "tabs": [
+    {
+      "name": "Bókun Help Center",
+      "url": "/docs/bokun-help-center"
+    },
+    {
+      "name": "",
+      "url": "/"
+    }
+  ]
 }
